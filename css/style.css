@@ -80,8 +80,11 @@ form i{
     background-color: #17A100;
 }
 
-label, .c, .f, p{
-    font-size: 16px;
+label{
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 19px;
+    font-style: normal;
 }
 .btn a{
     text-decoration: none;
@@ -98,9 +101,9 @@ label, .c, .f, p{
         width: 75%;
     }
 
-    label {
+    /* label {
         font-size: 12px !important;
-    }
+    } */
 
     .linegroup p {
         font-size: 12px !important;
@@ -130,10 +133,10 @@ label, .c, .f, p{
         margin: 20% auto;
     }
     label {
-        font-size: 16px;
+        /* font-size: 16px;
         font-weight: 600;
         line-height: 19px;
-        font-style: normal;
+        font-style: normal; */
     }
         .btn a {
             text-decoration: none;
@@ -151,9 +154,7 @@ label, .c, .f, p{
     .main-section, .success {
         width: 85%;
     }
-    label{
-        font-size: 12px !important;
-    }
+    
     .linegroup p{
         font-size: 12px !important;
     }
@@ -181,12 +182,12 @@ label, .c, .f, p{
     /* .name, .phone{
         margin-bottom: 4%;
     } */
-    label {
+    /* label {
         font-size: 16px;
         font-weight: 600;
         line-height: 19px;
         font-style: normal;
-    }
+    } */
         .btn a {
             text-decoration: none;
             color: white;
@@ -231,26 +232,17 @@ label, .c, .f, p{
     .input-group #button-addon2 {
         border-radius: 7px !important;
     }
-    /* .name, .phone {
-        margin-bottom: 4%;
-    } */
-    label {
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 19px;
-        font-style: normal;
-    }
-        .btn a {
+    .btn a {
             text-decoration: none;
             color: white;
-        }
+    }
     
-        .login a {
-            text-decoration: none;
-            color: #17A100;
-            font-size: 16px;
-            font-weight: 400;
-        }
+    .login a {
+        text-decoration: none;
+        color: #17A100;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 @media(max-width: 321px){
