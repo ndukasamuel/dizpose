@@ -24,14 +24,12 @@ label{
     font-weight: 600;
     line-height: 19px;
 }
-/* .text p{
-    font-size: 20px;
-    font-weight: 400;
-} */
+
 .text p{
     font-size: 20px !important;
     font-weight: 400;
 }
+
 .nav-link.active {
     color: black !important;
     border-bottom: none !important;
@@ -43,41 +41,54 @@ label{
 .success{
     margin: 10% auto;
 }
-/* .linegroup p{
-    background: red;
-    width: 45%;
-    font-size: medium;
-} */
+
 .line{
     background: url(../img/Line\ 27.png);
     width: 30%;
     height: 2px;
 }
+
 .box img{
     width: 90%;
 }
+
 .continue{
     width: 100%;
 }
+
 .continue .line{
     width: 40%;
 }
+
 .continue p{
     width: 100%;
+    font-weight: 500;
 }
+
+.login p{
+    font-weight: 500;
+}
+
 form i{
     margin-left: -30px;
 }
+
 .social img{
     width: 150px;
     align-content: center;
 }
+
 .dc{
     background: rgb(23, 162, 0, 0.5);
 }
+
 .c{
     color: #ffffff;
     background-color: #17A100;
+}
+
+.req{
+    font-weight: 400;
 }
 
 label{
@@ -86,16 +97,19 @@ label{
     line-height: 19px;
     font-style: normal;
 }
+
 .btn a{
     text-decoration: none;
     color: white;
 }
+
 .login a{
     text-decoration: none;
     color: #17A100;
     font-size: 16px;
     font-weight: 400;
 }
+
 @media(max-width: 1441px) {
     .main-section, .success {
         width: 75%;
@@ -118,6 +132,7 @@ label{
         font-style: normal;
     }
 }
+
 @media(max-width: 1025px){
     .main-section, .success{
         width: 75%;
@@ -141,6 +156,7 @@ label{
         font-weight: 400;
     }
 }
+
 @media(max-width: 769px) {
     .main-section, .success {
         width: 85%;
@@ -170,31 +186,24 @@ label{
     .width-md {
         width: 100% !important;
     }
-    /* .name, .phone{
-        margin-bottom: 4%;
-    } */
-    /* label {
+
+    .btn a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .login a {
+        text-decoration: none;
+        color: #17A100;
         font-size: 16px;
-        font-weight: 600;
-        line-height: 19px;
-        font-style: normal;
-    } */
-        .btn a {
-            text-decoration: none;
-            color: white;
-        }
+        font-weight: 400;
+    }
     
-        .login a {
-            text-decoration: none;
-            color: #17A100;
-            font-size: 16px;
-            font-weight: 400;
-        }
-    
-        .socials {
-            width: 30% !important;
-        }
+    .socials {
+        width: 30% !important;
+    }
 }
+
 @media(max-width: 426px) {
     .main-section, .success{
         width: 100%;
@@ -268,5 +277,10 @@ label{
 }
 .socials {
     width: 49% !important;
+}
+.continue p {
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
 }
 }
