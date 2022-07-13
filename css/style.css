@@ -24,12 +24,12 @@ label{
     font-weight: 600;
     line-height: 19px;
 }
-.text p{
+/* .text p{
     font-size: 20px;
     font-weight: 400;
-}
+} */
 .text p{
-    font-size: 20px;
+    font-size: 20px !important;
     font-weight: 400;
 }
 .nav-link.active {
@@ -101,10 +101,6 @@ label{
         width: 75%;
     }
 
-    /* label {
-        font-size: 12px !important;
-    } */
-
     .linegroup p {
         font-size: 12px !important;
     }
@@ -132,23 +128,18 @@ label{
     .success {
         margin: 20% auto;
     }
-    label {
-        /* font-size: 16px;
-        font-weight: 600;
-        line-height: 19px;
-        font-style: normal; */
+
+    .btn a {
+        text-decoration: none;
+        color: white;
     }
-        .btn a {
-            text-decoration: none;
-            color: white;
-        }
     
-        .login a {
-            text-decoration: none;
-            color: #17A100;
-            font-size: 16px;
-            font-weight: 400;
-        }
+    .login a {
+        text-decoration: none;
+        color: #17A100;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 @media(max-width: 769px) {
     .main-section, .success {
@@ -199,31 +190,37 @@ label{
             font-size: 16px;
             font-weight: 400;
         }
+    
+        .socials {
+            width: 30% !important;
+        }
 }
 @media(max-width: 426px) {
     .main-section, .success{
         width: 100%;
     }
+
     .text h1{
         font-size: 30px;
         font-weight: 600;
         line-height: 150%;
     }
+
     .text p{
         font-size: 16px;
         font-weight: 400;
         line-height: 150%;
         font-style: normal;
     }
+
     .success{
         margin: 30% auto;
     }
-    .btn{
-        /* width: 100%!important; */
-    }
+
     .c{
         width: 100%!important;
     } 
+
     #width {
         width: 100% !important;
     }
@@ -232,6 +229,7 @@ label{
     .input-group #button-addon2 {
         border-radius: 7px !important;
     }
+
     .btn a {
             text-decoration: none;
             color: white;
@@ -242,6 +240,16 @@ label{
         color: #17A100;
         font-size: 16px;
         font-weight: 400;
+    }
+
+    .socials{
+        width: 40% !important;
+    }
+}
+
+@media(max-width: 321px){
+    .socials {
+        width: 49% !important;
     }
 }
 
@@ -257,5 +265,8 @@ label{
     font-weight: 400;
     line-height: 150%;
     font-style: normal;
+}
+.socials {
+    width: 49% !important;
 }
 }
